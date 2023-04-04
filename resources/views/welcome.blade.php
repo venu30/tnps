@@ -37,12 +37,19 @@
                     @endauth
                 </div>
             @endif
+            
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-
                 <div class="container">
                     <div class="feedback">
                       <div class="rating">
+
+                        <input type="radio" name="rating" id="rating-10">
+                        <label for="rating-10"></label>
+                        <input type="radio" name="rating" id="rating-9">
+                        <label for="rating-9"></label>
+                        <input type="radio" name="rating" id="rating-8">
+                        <label for="rating-8"></label>
                         <input type="radio" name="rating" id="rating-7">
                         <label for="rating-7"></label>
                         <input type="radio" name="rating" id="rating-6">
@@ -59,11 +66,9 @@
                         <label for="rating-1"></label>
 
 
-
-
                         <div class="emoji-wrapper">
                           <div class="emoji">
-                            
+
                             <svg class="rating-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <circle cx="256" cy="256" r="256" fill="#ffd93b"/>
                             <path d="M512 256c0 141.44-114.64 256-256 256-80.48 0-152.32-37.12-199.28-95.28 43.92 35.52 99.84 56.72 160.72 56.72 141.36 0 256-114.56 256-256 0-60.88-21.2-116.8-56.72-160.72C474.8 103.68 512 175.52 512 256z" fill="#f4c534"/>
